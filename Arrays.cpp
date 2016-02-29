@@ -15,7 +15,7 @@ int main() {
 	std::string fNames[6] = { "Jake", "Will", "Kyle", "Alex", "Dylan", "Mert" };
 
 	firstName = fNames[fNameNumb];
-	std::cout << "The Number Selected for the Array was " << fNameNumb << " and the name is " << firstName << ".\n\n";
+	std::cout << "The Number Selected for the Array was " << (fNameNumb + 1) << " and the name is " << firstName << ".\n\n";
 
 	system("pause");
 
